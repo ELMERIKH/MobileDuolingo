@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:background="@drawable/backgroundblue">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="SCORE"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"/>
+
+    <ImageView
+        android:id="@+id/imagescore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/happy"/>
+
+    <Button
+        android:id="@+id/leavemenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagescore"
+        android:layout_marginHorizontal="20dp"
+        android:paddingVertical="20dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/black"
+        app:cornerRadius="20dp"
+        android:text="go back to dashboard" />
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseLanguage"
+    android:background="#20B2AA">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select A Language !"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="6dp"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/russia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/russia"
+        android:background="#32CD32"
+        android:paddingVertical="10dp"/>
+
+    <ImageButton
+        android:id="@+id/usa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/russia"
+        android:background="#32CD32"
+        android:paddingVertical="10dp"
+        android:src="@drawable/usa" />
+
+    <ImageButton
+        android:id="@+id/arab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usa"
+        android:background="#32CD32"
+        android:paddingVertical="10dp"
+        android:src="@drawable/arab" />
+
+    <ImageButton
+        android:id="@+id/france"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/arab"
+        android:background="#32CD32"
+        android:paddingVertical="10dp"
+        android:src="@drawable/france" />
+
+    <Button
+        android:id="@+id/leavebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/france"
+        android:layout_marginTop="20dp"
+        android:paddingVertical="10dp"
+        android:backgroundTint="#FF4B4B"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:text="Back to Difficulty"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

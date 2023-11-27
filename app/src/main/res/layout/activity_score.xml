@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/empty_bg"
+    tools:context=".ScoreActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:background="#2B70C9"
+        android:src="@drawable/singgif" />
+
+    <TextView
+        android:layout_below="@id/gif"
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:text="English :"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:id="@+id/arabic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:text="Arabic :"
+        android:layout_below="@id/rankUS"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/russian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:text="Russian :"
+        android:layout_below="@id/rankAR"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/french"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:text="French :"
+        android:layout_below="@id/rankRU"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/rankUS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:gravity="center"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:layout_below="@id/english"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/rankAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:gravity="center"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:layout_below="@id/arabic"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/rankRU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:gravity="center"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:layout_below="@id/russian"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/rankFR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:gravity="center"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:layout_below="@id/french"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/leavebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rankFR"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#FF4B4B"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:text="Quit !"
+        android:textColor="@color/white" />
+</RelativeLayout>

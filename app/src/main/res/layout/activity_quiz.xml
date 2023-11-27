@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz"
+    android:background="@drawable/backgroundblue">
+
+    <LinearLayout
+        android:id="@+id/linearlayouttop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/layoutborder"
+        android:padding="80dp">
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz Question"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"/>
+
+    </LinearLayout>
+
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearlayouttop"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:text="option 1"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton1"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:text="option 2"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton2"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:text="option 3"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton3"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+            android:text="option 4"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radiogroup"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"
+        android:textColor="@color/white"
+        android:text="Submit"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:backgroundTint="#58CC02"/>
+    <Button
+        android:id="@+id/quitbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submitbtn"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:textColor="@color/white"
+        android:text="Quit !"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:backgroundTint="#FF4B4B"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quitbtn"
+        android:progressDrawable="@drawable/progresscolor"
+        android:layout_marginTop="32dp"
+        android:indeterminate="false" />
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:background="@drawable/backgroundblue">
+
+    <ImageView
+        android:id="@+id/langimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="100dp"/>
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/langimg"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#58CC02"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:hint="Start Quiz !"
+        android:paddingVertical="20dp"
+        android:textColorHint="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/leavebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/startbtn"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FF4B4B"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:hint="leave !"
+        android:paddingVertical="20dp"
+        android:textColorHint="@color/white"
+        android:textSize="20dp" />
+
+</RelativeLayout>

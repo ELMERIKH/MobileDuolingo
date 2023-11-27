@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DifficultyActivity"
+    android:background="@drawable/empty_bg">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:background="#2B70C9"
+        android:src="@drawable/gifjump" />
+
+    <TextView
+        android:id="@+id/textdiff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose A Difficulty"
+        android:layout_below="@id/gif"
+        android:textColor="@color/white"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"/>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hard"
+        android:layout_below="@id/textdiff"
+        android:src="@drawable/hardmode"
+        android:background="#30FFFFFF"
+        android:layout_marginTop="40dp"
+        android:paddingVertical="10dp"/>
+
+    <ImageButton
+        android:id="@+id/easy"
+        android:layout_below="@id/hard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/easymode"
+        android:background="#30FFFFFF"
+        android:layout_marginTop="50dp"
+        android:paddingVertical="10dp"/>
+
+    <Button
+        android:id="@+id/quitbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/easy"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Quit !"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:backgroundTint="#FF4B4B"/>
+
+
+</RelativeLayout>

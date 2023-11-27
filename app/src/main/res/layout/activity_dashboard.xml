@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:background="@drawable/empty_bg">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:background="#2B70C9"
+        android:src="@drawable/animgif" />
+
+    <ImageButton
+        android:id="@+id/scorebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/trophy" />
+    <TextView
+        android:id="@+id/scoretxt"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scorebtn"
+        android:layout_alignStart="@+id/scorebtn"
+        android:layout_alignEnd="@+id/scorebtn"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:text="High Scores"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+
+    <ImageButton
+        android:id="@+id/quizbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/question" />
+    <TextView
+        android:id="@+id/quiztxt"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quizbtn"
+        android:layout_alignStart="@+id/quizbtn"
+        android:layout_alignEnd="@+id/quizbtn"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:text="Start Quiz"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/profiletxt"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile"
+        android:layout_alignStart="@+id/profile"
+        android:layout_alignEnd="@+id/profile"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/leaderboardbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scoretxt"
+        android:layout_marginTop="40dp"
+        android:layout_alignStart="@+id/scorebtn"
+        android:layout_alignEnd="@+id/scorebtn"
+        android:background="@null"
+        android:src="@drawable/leaderboard" />
+    <TextView
+        android:id="@+id/leaderboardtxt"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/leaderboardbtn"
+        android:layout_alignStart="@+id/leaderboardbtn"
+        android:layout_alignEnd="@+id/leaderboardbtn"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:text="Leaderboard"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profiletxt"
+        android:layout_alignStart="@+id/scorebtn"
+        android:layout_alignEnd="@+id/quizbtn"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FF4B4B"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:paddingVertical="10dp"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quiztxt"
+        android:layout_marginTop="40dp"
+        android:layout_alignStart="@id/quiztxt"
+        android:layout_alignEnd="@id/quiztxt"
+        android:src="@drawable/account" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:layout_below="@id/gif"
+        android:text="TextView"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

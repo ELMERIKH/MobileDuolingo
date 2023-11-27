@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/empty_bg">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imganim"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:src="@drawable/imgprof"
+        android:background="#2B70C9"/>
+
+
+    <TextView
+        android:id="@+id/username3"
+        android:layout_below="@id/imganim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:textColor="#4B4B4B"
+        android:text="Username :"
+        android:textSize="30sp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c" />
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/username3"
+        android:text="Username"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c" />
+
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email2"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="Email"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c" />
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:textColor="#4B4B4B"
+        android:text="Email :"
+        android:layout_below="@id/Username"
+        android:textSize="30sp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c" />
+    <TextView
+        android:id="@+id/Rank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:text="Rank"
+        android:layout_below="@id/rank"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c" />
+
+
+    <TextView
+        android:id="@+id/rank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Email"
+        android:text="Rank :"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:textColor="#4B4B4B"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#FF4B4B"
+        android:fontFamily="@font/feather_bold_by_typicalbro44_dee263c"
+        android:text="Go back"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

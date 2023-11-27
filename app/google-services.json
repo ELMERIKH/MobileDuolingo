@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "997199087666",
+    "firebase_url": "https://quizapp-16395-default-rtdb.firebaseio.com",
+    "project_id": "quizapp-16395",
+    "storage_bucket": "quizapp-16395.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997199087666:android:63a6b162a0bd0630c8542b",
+        "android_client_info": {
+          "package_name": "com.example.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997199087666-ltagpcllrusmeioaqnthirr3q4fs2do0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5YCJIxD-Hl65FkNMpolV-oB-MKz5kc2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997199087666-ltagpcllrusmeioaqnthirr3q4fs2do0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997199087666:android:12e91b5860eb2adec8542b",
+        "android_client_info": {
+          "package_name": "com.example.quizappduolingo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997199087666-ltagpcllrusmeioaqnthirr3q4fs2do0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5YCJIxD-Hl65FkNMpolV-oB-MKz5kc2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997199087666-ltagpcllrusmeioaqnthirr3q4fs2do0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

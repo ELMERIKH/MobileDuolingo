@@ -1,1 +1,1 @@
-https://github.com/ELMERIKH/MobileDuolingo/blob/master/5b8b5872-6d75-4142-9437-83732b777625.jpg?raw=true
+![image](https://github.com/ELMERIKH/MobileDuolingo/assets/96123439/2575f2d5-7db9-4b63-857e-4a2de0d06473)
